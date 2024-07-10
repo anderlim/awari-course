@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: #D0D0D0;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif, 'Segoe UI', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; 
+}
+
+.header { 
+    align-items: center;
+    background: linear-gradient(90deg, #00C6FF, #0072FF);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#posts {
+    padding: 20px;
+}
+
+.article {
+    background-color: #2A2A2A;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.article:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.article-title {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #00C6FF;
+}
+
+.article-content {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
